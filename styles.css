@@ -931,5 +931,8 @@ body.stop-scrolling {
     -moz-transform: translateY(145%);
     -o-transform: translateY(145%);
     transform: translateY(145%); } }
-
-/*# sourceMappingURL=app.26e244bd28104f39ea5b.bundle.map*/
+ai-dialog-overlay.active {
+  background-color: black;
+  opacity: .5;
+}
+/*# sourceMappingURL=app.cc8bbebb8550abda7085.bundle.map*/
