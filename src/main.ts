@@ -24,9 +24,9 @@ export async function configure(aurelia: Aurelia) {
     .plugin('aurelia-validation')
     .plugin('aurelia-dialog', config => {
       config.useDefaults();
-      config.settings.lock = true;
-      config.settings.centerHorizontalOnly = false;
-      config.settings.startingZIndex = 5;
+      config.settings.lock = false;
+      config.settings.centerHorizontalOnly = true;
+      config.settings.startingZIndex = 999;
       config.settings.enableEscClose = true;
     })
     .feature('resources')
