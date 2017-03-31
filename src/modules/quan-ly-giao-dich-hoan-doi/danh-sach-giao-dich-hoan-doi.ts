@@ -1,3 +1,3 @@
 export class DanhSachChiTra {
-    title = "Danh sách giao dịch chi trả"
+    title = "Danh sách giao dịch hoán đổi"
 }

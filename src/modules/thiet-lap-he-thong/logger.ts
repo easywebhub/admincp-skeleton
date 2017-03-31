@@ -1,2 +1,2 @@
 import { getLogger } from 'aurelia-logging';
-export const logger = getLogger('quan-ly-doi-tac');
+export const logger = getLogger('thiet-lap-he-thong');
