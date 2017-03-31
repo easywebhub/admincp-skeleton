@@ -5,10 +5,9 @@ import { inlineView } from "aurelia-templating";
 @inlineView(childViewer)
 export class QuanLyDoiTac {
     router: Router;
-    heading = 'Quản lý chi trả';
     configureRouter(config: RouterConfiguration, router: Router) {
         config.map([
-            { route: ['', 'danh-sach-doi-tac'], name: 'danh-sach-doi-tac', moduleId: './danh-sach-doi-tac', nav: true, title: 'Danh sách đổi tác' }]);
+            { route: ['', 'danh-sach-giao-dich-chi-tra'], name: 'danh-sach-giao-dich-chi-tra', moduleId: './danh-sach-giao-dich-chi-tra', nav: true, title: 'Danh sách giao dịch chi trả' }]);
         this.router = router;
     }
 }

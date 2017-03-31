@@ -24,6 +24,22 @@ export class App {
         settings: { icon: 'pg-tables' }
       },
       {
+        route: 'quan-ly-giao-dich-hoan-doi', name: 'quan-ly-giao-dich-hoan-doi', moduleId: 'modules/quan-ly-giao-dich-hoan-doi/index', nav: true, title: 'QL giao dịch hoán đổi',
+        settings: { icon: 'pg-tables' }
+      },
+      {
+        route: 'quan-ly-giao-dich-chi-tra', name: 'quan-ly-giao-dich-chi-tra', moduleId: 'modules/quan-ly-giao-dich-chi-tra/index', nav: true, title: 'QL giao dịch chi trả',
+        settings: { icon: 'pg-tables' }
+      },
+       {
+        route: 'quan-ly-bo-ho-so-chi-tra', name: 'quan-ly-bo-ho-so-chi-tra', moduleId: 'modules/quan-ly-bo-ho-so-chi-tra/index', nav: true, title: 'QL giao bộ hồ sơ trả',
+        settings: { icon: 'pg-tables' }
+      },
+      {
+        route: 'thiet-lap-he-thong', name: 'thiet-lap-he-thong', moduleId: 'modules/thiet-lap-he-thong/index', nav: true, title: 'Thiết lập hệ thống',
+        settings: { icon: 'pg-tables' }
+      },
+      {
         route: 'logout', name: 'logout', moduleId: 'modules/logout/index', nav: false
       },
       {
